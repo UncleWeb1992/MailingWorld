@@ -64,7 +64,7 @@ const MessageList: FC = () => {
     selected.forEach((msg) => {
       const find = messages.find((m) => m.id === msg.id);
       if (find) {
-        selected.filter((msg) => msg.id !== find.id);
+        setSelected((prev) => prev.filter((msg) => msg.id !== find.id));
         dispatch(updateMessage({ ...find, type: MessageFields.Cart }));
       }
     });
