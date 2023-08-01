@@ -20,6 +20,7 @@
 
 .content {
   min-height: calc(100vh - calc(var(--header-height)));
+  overflow-y: auto;
   flex-grow: 1;
   border-top-left-radius: calc(var(--index) * 0.8);
   border-top-right-radius: calc(var(--index) * 0.8);

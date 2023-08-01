@@ -73,3 +73,14 @@
   overflow: hidden;
   background-color: blue;
 }
+
+.clearCart {
+  position: absolute;
+  bottom: 40px;
+  right: 3vw;
+  z-index: 1000;
+  color: rgb(114, 1, 1);
+  width: 30px;
+  height: 40px;
+  cursor: pointer;
+}
