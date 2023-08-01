@@ -6,7 +6,7 @@ import { PiNotebook, PiShoppingCartSimple } from "react-icons/pi";
 import { BiDislike } from "react-icons/bi";
 import { randomId } from "../utils/randomId";
 
-export const githubLink = "https://github.com/UncleWeb1992";
+export const githubLink = "https://github.com/UncleWeb1992/MailingWorld";
 
 export const SideBarLinks: SidebarLinks[] = [
   {
