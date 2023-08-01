@@ -1,0 +1,40 @@
+@import "./fonts";
+
+:root {
+  --index: calc(1vw + 1vh);
+  /* Font */
+
+  --font-family-main: Montserat-M, serif;
+
+  --font-size-m: 16px;
+  --font-line-m: 24px;
+  --font-m: var(--font-size-m) / var(--font-line-m) var(--font-family-main);
+
+  --font-size-l: 24px;
+  --font-line-l: 32px;
+
+  --font-size-xl: 40px;
+  --font-line-xl: 52px;
+  --font-l: var(--font-size-l) / var(--font-line-l) var(--font-family-main);
+
+  /* Sizes */
+
+  --header-height: 60px;
+  --sidebar-w-open: 300px;
+  --sidebar-w-close: 80px;
+
+  /* Theme */
+
+  /* Background colors */
+
+  --bg-dark: rgb(25 26 28);
+  --bg-light: #eee8e8;
+
+  /* Colors */
+
+  --white--color: #fafafa;
+  --green-color: rgba(15, 255, 0, 0.17);
+  --gold-color: #f4d987ff;
+  --dark-color: #1a1717;
+  --modal-dark-color: #64646483;
+}

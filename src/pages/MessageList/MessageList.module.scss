@@ -1,0 +1,75 @@
+.actions {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+
+  & li {
+    padding: 5px 10px;
+    font-weight: 500;
+    cursor: pointer;
+
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+}
+
+.notFound {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.msg {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+
+  transition: background 0.2s linear;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+  }
+
+  &:hover {
+    background-color: #dbdbdb;
+    cursor: pointer;
+  }
+}
+
+.autor {
+  width: 15%;
+  white-space: nowrap;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.preview {
+  width: 70% !important;
+  font-size: 16px;
+  white-space: nowrap;
+
+  padding: 0 40px 0 20px;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.date {
+  width: 10%;
+}
+
+.isRead {
+  width: 10px;
+}
+
+.dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 100%;
+  overflow: hidden;
+  background-color: blue;
+}

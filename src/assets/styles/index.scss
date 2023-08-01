@@ -1,0 +1,19 @@
+@import "./reset";
+@import "./normalize";
+@import "./functions";
+@import "./mixins";
+@import "./variables";
+@import "./fonts";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.app {
+  font: var(--font-m);
+  background: var(--bg-color);
+  color: var(--white--color);
+  min-height: 100vh;
+}

@@ -1,0 +1,37 @@
+.root {
+  width: 100%;
+}
+
+.label {
+  font-size: 14px;
+  display: block;
+  mix-blend-mode: difference;
+}
+
+.input {
+  width: 100%;
+  border: 1px solid var(--dark-color);
+  padding: 10px;
+  min-height: 30vh;
+  border-radius: 10px;
+
+  outline: none;
+  background-color: transparent;
+
+  resize: none;
+}
+
+.countWrap {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+
+  & span {
+    color: var(--dark-color);
+    font-size: 14px;
+
+    &.full {
+      color: red;
+    }
+  }
+}

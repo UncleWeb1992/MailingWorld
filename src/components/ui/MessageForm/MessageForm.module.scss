@@ -1,0 +1,45 @@
+.root {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+
+  &.open {
+    display: flex;
+    z-index: 1000;
+  }
+}
+
+.content {
+  position: relative;
+  width: 100%;
+  max-width: 30vw;
+  background-color: #fff;
+  border-radius: calc(var(--index) * 0.5);
+  transform: translateY(-100vh);
+  transition: transform 0.5s linear;
+  padding: 30px;
+
+  &.openContent {
+    transform: translateY(0);
+  }
+}
+
+.input {
+  margin-bottom: 30px;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: var(--dark-color);
+  cursor: pointer;
+}

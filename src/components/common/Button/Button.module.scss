@@ -1,0 +1,18 @@
+.btn {
+  padding: 10px 20px;
+  background-color: var(--green-color);
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+
+  outline: none;
+  border: 0;
+
+  &:disabled {
+    pointer-events: none;
+    background-color: #d8d8d8;
+    color: #fff;
+  }
+}

@@ -1,0 +1,30 @@
+.root {
+  position: relative;
+  width: 100%;
+  position: relative;
+}
+
+.label {
+  font-size: 14px;
+  display: block;
+  mix-blend-mode: difference;
+}
+
+.input {
+  width: 100%;
+  border: 1px solid var(--dark-color);
+  padding: 0 20px;
+  height: 46px;
+  border-radius: 10px;
+
+  outline: none;
+  background-color: transparent;
+}
+
+.error {
+  position: absolute;
+  bottom: -20px;
+  left: 5px;
+  color: red;
+  font-size: 12px;
+}
