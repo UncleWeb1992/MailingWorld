@@ -1,4 +1,4 @@
-## Инициалиция проекта
+## Инициализация проекта
 
 #### `git clone https://github.com/UncleWeb1992/MailingWorld`
 
